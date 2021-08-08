@@ -1,0 +1,637 @@
+html{
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, #467998, #3a6d8c) !important;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #407190, #3a6d8c);*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the toodyp of the page */
+  width: 100%; /* Full width */
+  z-index: 9999;
+  box-shadow: 0px 4px 8px 0px #757575;
+  background: #edf9ff;
+}
+header{
+  margin-bottom: 20px;
+}
+.padd-tp-10{
+  padding-top: 5%;
+}
+.captcha{
+
+  border: 0px solid;
+  text-align: center;
+  margin-top: 15px;
+}
+.padd-bp-10{
+  padding-bottom: 5%;
+}
+.bg-white{
+    background-color: #fff;
+}
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px
+}
+.bg-card{
+  background: #d8d7d7;
+}
+.card2 {
+    margin: 0px 40px;
+    background: transparent;
+}
+
+.card1{background-image: linear-gradient(to right, #467998, #3a6d8c);}
+.card2 h4{color: #0a94bf;}
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+/*.image {
+    width: 360px;
+    height: 280px
+}*/
+
+/*.border-line {
+    border-right: 1px solid #EEEEEE
+}*/
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.linkedin {
+    background-color: #2867B2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.line {
+        height: 2px;
+    width: 45%;
+    background-color: #0a94bf;
+    margin-top: 10px;
+}
+
+.or {
+    width: 10%;
+    font-weight: bold
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+.alert p{
+  margin-bottom: 0px;
+}
+
+input,
+textarea, select{
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+span.select2.select2-container{
+width: 100%!important;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+    background-image:  linear-gradient(to right, #467998, #3a6d8c);
+    width: 150px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #3a6d8c;
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 300px;
+        height: 220px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}
+.messages_success{
+        background-color: #3a6d8c;
+    color: #fff!important;
+}
+.messages_success h6{
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.menu{
+        margin: 20px 0px;
+}
+
+.menu label {
+ color: #fff!important;
+    padding: 10px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    text-align: center;
+    
+    background-image: linear-gradient(to right,#ba68fd,#6e68f3);
+        border-radius: 7px;
+}
+
+.form {
+  display: none;
+}
+.form.active {
+  display: block
+}
+.btn_choose_sent input {
+  -webkit-appearance: none;
+  display: block;
+  margin: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  vertical-align: middle;
+  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+  background-color: hsla(0,0%,0%,.2);
+      background-image: -webkit-radial-gradient( #fff 0%, #fff 15%, #fff 28%, #fff 70% );
+  background-repeat: no-repeat;
+  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+  outline: none;
+}
+.btn_choose_sent input:checked {
+  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+}
+.btn_choose_sent input:active {
+  -webkit-transform: scale(1.5);
+  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+}
+
+
+
+/* The up/down direction logic */
+
+.btn_choose_sent input,
+.btn_choose_sent input:active {
+  background-position: 0 24px;
+}
+.btn_choose_sent input:checked {
+  background-position: 0 0;
+
+}
+.btn_choose_sent input:checked ~ input,
+ .btn_choose_sent input:checked ~ input:active {
+  background-position: 0 -24px;
+}
+
+.btn_choose_sent{
+      background: #EF2D56;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+    border: none; 
+     border-radius: 3px;
+    font-size: 16px;
+    line-height: 10px;
+    padding:  16px 20px 16px 38px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.btn_choose_sent input{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    top: 2px;
+}
+
+.btn_choose_sent input:after{
+   position: absolute;
+    content: '';
+    width: 15rem;
+    left: 0;
+    right: 0;
+    /* background: red; */
+    /* z-index: -1; */
+    height: 40px;
+    top: -10px;
+}
+
+.bg_btn_chose_1{
+  background-color: #3a6d8c !important;
+}
+
+
+.bg_btn_chose_2{
+  background-color: #3a6d8c !important;
+}
+
+
+.bg_btn_chose_3{
+  background-color: #3a6d8c !important;
+}
+
+
+/*-=p=--=*/
+
+
+
+
+.btn_choose_sent_check_b{
+    background: #EF2D56;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+    border: none; 
+     border-radius: 3px;
+    font-size: 16px;
+    line-height: 10px;
+    padding:  16px 20px 16px 46px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+
+
+
+.logo-container  {
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    width: 10%;
+    cursor: pointer;
+    z-index: 100;
+}}
+
+/*custom font*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background:#3a6d8c;
+  background-repeat:no-repeat;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00353b), to(#00a892));
+    background-image: -webkit-linear-gradient(top, #00353b, #00a892);
+    background-image: -moz-linear-gradient(top, #00353b, #00a892);
+    background-image: -ms-linear-gradient(top, #00353b, #00a892);
+    background-image: -o-linear-gradient(top, #00353b, #00a892);
+    background-image: linear-gradient(top, #00353b, #00a892);
+    filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#00353b', end-colourStr='#00a892');
+    
+
+}
+
+
+
+/*form styles*/
+
+#msform {
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+}
+
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;
+  /*stacking fieldsets above each other*/
+
+}
+
+
+/*Hide all except first fieldset*/
+
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+
+/*inputs*/
+
+#msform input,
+#msform textarea,
+#msform select {
+
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+
+/*buttons*/
+
+#msform .action-button {
+  width: 100px;
+  background: #3a6d8c;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+
+/*headings*/
+
+.fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+/*progressbar*/
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  /*CSS counters to number the steps*/
+  counter-reset: step;
+}
+
+#progressbar ul {
+  padding-left:0px !important;
+}
+
+#progressbar li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 9px;
+  width:50%;
+  float: left;
+  position: relative;
+}
+
+#progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 20px;
+  line-height: 20px;
+  display: block;
+  font-size: 10px;
+  color: #333;
+  background: #cfceb4;
+  border-radius: 3px;
+  margin: 0 auto 5px auto;
+}
+
+
+/*progressbar connectors*/
+
+#progressbar li:after {
+  content: '';
+  width: 95%;
+  height: 2px;
+  background: #cfceb4;
+  position: absolute;
+  left: -47%;
+  top: 9px;
+  z-index: 1;
+  /*put it behind the numbers*/
+}
+#progressbar li span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#progressbar li:first-child:after {
+  /*connector not needed before the first step*/
+  content: none;
+}
+
+
+/*marking active/completed steps green*/
+
+
+/*The number of the step and the connector before it = green*/
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #eee809;
+  color: #00353b;
+}
+
+/* 04-05-2021*/
+
+input#res_india, input#res_india2, input#ind2, input#ind1 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.intent-box input.form-check-input {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+input#confirmation_given {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+a.sand-link-box:hover {
+    color: #4990bb;
+}
+a.sand-link-box {
+    color: #3a6d8c;
+}
+input#captcha {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#captchaimg {
+    margin: 8px 0 0 0;
+}
+
+h5.pri-tittle-box {
+    background: #fbfbfb;
+    padding: 6px;
+}
+
+footer .bg-blue.py-2 {
+    color: #000;
+    background-color: #edf9ff;
+}
+button#submit:disabled {
+    background-color: #a9e5f8;
+    color: #fff;
+    background-image: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+	border-radius: 4px;
+}
+
+button#submit {
+    background-color: #0a94bf;
+    color: #fff;
+    background-image: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+	border-radius: 4px;
+}
+
+button.btn.btn-primary {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
