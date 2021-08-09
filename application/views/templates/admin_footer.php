@@ -14,5 +14,15 @@
     
     <script src="<?=base_url('assets/admin/js/main.js')?>"></script>
 
+<script type="text/javascript">
+$(document).ready(function() {
+$(".required").siblings('label').after('<span style="color:Red; font-size: 19px;"  >*</span>');
+    $('#example').DataTable( {
+        "scrollY": 300,
+        "scrollX": true
+    } );
+} );
+	
+</script>
 </body>
 </html>
